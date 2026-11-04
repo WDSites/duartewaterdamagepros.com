@@ -284,3 +284,10 @@ body{font-size:16.5px}
 
 .pic{margin:26px 0}
 .pic img{display:block;width:100%;height:auto;border-radius:var(--r);border:1px solid var(--line)}
+.svclist{list-style:none;margin:1rem 0 1.5rem;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:12px}
+.svclist li{background:var(--card,#fff);border:1px solid var(--line,#e5ded6);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.svclist a{text-decoration:none}
+.svclist span{font-size:.92rem;line-height:1.5;color:var(--muted,#5b5148)}
+.findgrid{list-style:none;margin:1rem 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr));gap:10px}
+.findgrid li{min-width:0}
+.findgrid a{display:block;padding:12px 14px;border:1px solid var(--line,#e5ded6);border-radius:10px;text-decoration:none;font-weight:600;overflow-wrap:anywhere}
